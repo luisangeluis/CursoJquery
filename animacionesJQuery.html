@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtrar elementos</title>
+
+    <style>
+        .caja{
+        background:blue;
+        width: 100px;
+        height:100px;
+        display: inline-block;
+        text-align: center;
+        font-size: 2em;
+    }
+
+
+    .color{
+    	background: red;
+    }
+
+    @keyframes colores{
+        /*
+        from{background: blue}
+        to{background: red}
+
+        */
+
+        0%{background: blue}
+        50%{background: red}
+        100%{background: blue}
+
+
+    }
+
+    .animacion{
+        animation: colores 3s ease;
+    }
+    </style>
+    
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <button id="boton">animar</button><br>
+
+        <div class="caja">1</div>
+        
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/animacionesJQuery.js"></script>
+</body>
+
+</html>
