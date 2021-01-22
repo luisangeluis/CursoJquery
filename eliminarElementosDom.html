@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eliminar elementos del DOM</title>
+
+	<style type="text/css">
+		.contenedor{
+			width: 500px;
+			height: 500px;
+			background: lightblue;
+		}
+
+		.caja{
+			display: inline-block;
+			width: 100px;
+			height: 100px;
+			background: blue;
+			text-align: center;
+		}
+	</style>
+	
+</head>
+<body>
+
+	<div class="contenedor">
+		<div class="caja">1</div>
+		<div class="caja" id="segunda">2</div>
+		<div class="caja">3</div>
+		<div class="caja">4</div>
+
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="js/eliminarElementosDom.js"></script>
+</body>
+</html>
